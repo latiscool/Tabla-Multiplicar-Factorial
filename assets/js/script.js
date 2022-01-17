@@ -8,20 +8,23 @@ function tablaGenerar() {
       pWrite.innerHTML += `${numInput} x ${i}= ${multi} <br>`;
       console.log(`${numInput} x ${i} = (${multi})`);
     }
+    // } else {
+    //   alert('Debe ingresar un numero dentro del Rango');
+    // }
+
+    console.log(`=====================`);
+    //  TABLA FACTORIAL
+    for (let i = 1; i <= numInput; i++) {
+      let res = 1;
+      for (let j = 1; j <= i; j++) {
+        res = res * j;
+      }
+      pWrite2.innerHTML += `Factorial de ${i} es: ${res}<br>`;
+
+      console.log(`Factorial de ${i} es: ${res}`);
+    }
   } else {
     alert('Debe ingresar un numero dentro del Rango');
-  }
-
-  console.log(`=====================`);
-  //  TABLA FACTORIAL
-  for (let i = 1; i <= numInput; i++) {
-    let res = 1;
-    for (let j = 1; j <= i; j++) {
-      res = res * j;
-    }
-    pWrite2.innerHTML += `Factorial de ${i} es: ${res}<br>`;
-
-    console.log(`Factorial de ${i} es: ${res}`);
   }
 }
 
