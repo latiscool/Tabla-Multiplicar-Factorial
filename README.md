@@ -14,7 +14,7 @@
   <li>DOM</li>
   </ol>
   
-  <h5>**BOOTSTRAP 5**</h5>
+  <h5>** Framework: BOOTSTRAP 5**</h5>
   
   <p>Ver Publicado</p>
   <a href="https://latiscool.github.io/Tabla-Multiplicar-Factorial/">Desafio Tabla Multiplicar - Factorial JS/a> : Version 0<br>
