@@ -29,6 +29,7 @@ function tablaGenerar() {
 }
 
 //  BOTON DESHABILITAR
+const boton = document.getElementById('boton');
 boton.addEventListener('click', botonBlock);
 
 function botonBlock() {
