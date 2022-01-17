@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+}
+
+#pWrite,
+#pWrite2 {
+  border: 5px solid #10c929;
+  text-align: center;
+  vertical-align: middle;
+  width: fit-content;
+  margin: auto;
+}
+
+.row,
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
+}
